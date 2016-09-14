@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "inlineSourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "types": [
+            "geojson",
+            "node"
+        ]
+    },
+    "files": [
+        "src/main.ts"
+    ]
+}
