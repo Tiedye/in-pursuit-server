@@ -23,7 +23,7 @@ declare module 'query-overpass' {
      * @param callback callback that is called with query result
      * @param options the query options
      */
-    function query(query:string, callback:(error:string, data:GeoJSON.GeoJsonObject)=>void, options?: queryOptions) : void;
+    function query(query:string, callback:(error:string, data:GeoJSON.FeatureCollection<any>)=>void, options?: queryOptions) : void;
 
     export = query;
 }

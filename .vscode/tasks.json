@@ -17,7 +17,18 @@
                 "$lessCompile",
                 "$tsc",
                 "$jshint"
-            ]
+            ],
+            "showOutput": "silent"
+        },
+        {
+            "taskName": "watch",
+            "args": [],
+            "isBuildCommand": false,
+            "isWatching": true,
+            "problemMatcher": [
+                "$tsc-watch"
+            ],
+            "showOutput": "silent"
         }
     ]
 }

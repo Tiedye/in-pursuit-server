@@ -22,8 +22,10 @@
   "homepage": "https://github.com/Tiedye/in-pursuit-server#readme",
   "private": true,
   "devDependencies": {
+    "@types/gulp-watch": "^4.1.28",
     "gulp": "^3.9.1",
     "gulp-typescript": "^2.13.6",
+    "gulp-watch": "^4.3.9",
     "typescript": "^2.0.2"
   },
   "dependencies": {
